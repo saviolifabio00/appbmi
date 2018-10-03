@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.app.bmi"
+    versionCode = "12"
+    version     = "1.2" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>App BMI</name>
+
+  <description>
+      App per il calcolo del BMI dai il peso in Kg.
+      L'altezza in metri, il sesso, indica come il BMI si posiziona nella tabella di riferimento.
+  </description>
+
+  <author email="savioli.fabio@canossamilano.org">
+      Fabio Savioli
+  </author>
+  
+  <platform name="android" />
+   <icon src="bmi.jpg" platform="android" qualifier="ldpi" ></icon>
+   <icon src="bmi.jpg" platform="android" qualifier="mdpi" ></icon>
+   <icon src="bmi.jpg" platform="android" qualifier="hdpi" ></icon>
+   
+   <access origin="*"/ >
+   <plugin name="cordova-plugin-whitelist" source="npm" >
+   <allow-navigation href="*://*getskeleton.com/*" >
+</widget>
