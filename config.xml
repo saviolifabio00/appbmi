@@ -20,9 +20,9 @@
   </author>
 
   <platform name="android" />
-  <icon src="bmi.png" platform="android" qualifier="ldpi" />
-  <icon src="bmi.png" platform="android" qualifier="mdpi" />
-  <icon src="bmi.png" platform="android" qualifier="hdpi" />
+  <icon src="icona.png" platform="android" qualifier="ldpi" />
+  <icon src="icona.png" platform="android" qualifier="mdpi" />
+  <icon src="icona.png" platform="android" qualifier="hdpi" />
 
   <access origin="*" />
    <plugin name="cordova-plugin-whitelist" source="npm" />
