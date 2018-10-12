@@ -18,10 +18,10 @@
       Fabio Savioli
   </author>
   
-  <platform name="android" />
-   <icon src="bmi.jpg" platform="android" qualifier="ldpi" ></icon>
-   <icon src="bmi.jpg" platform="android" qualifier="mdpi" ></icon>
-   <icon src="bmi.jpg" platform="android" qualifier="hdpi" ></icon>
+ 
+   <icon src="bmi.jpg" platform="android" qualifier="ldpi" >
+   <icon src="bmi.jpg" platform="android" qualifier="mdpi" >
+   <icon src="bmi.jpg" platform="android" qualifier="hdpi" >
    
    <access origin="*"/ >
    <plugin name="cordova-plugin-whitelist" source="npm" >
